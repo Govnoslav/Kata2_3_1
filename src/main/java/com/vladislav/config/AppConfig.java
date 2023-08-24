@@ -14,7 +14,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 
 @Configuration
-@Import(GovnoConfig.class)
+@Import(SpringDataJPAConfig.class)
 @EnableWebMvc
 @ComponentScan("com.vladislav")
 public class AppConfig implements WebMvcConfigurer {

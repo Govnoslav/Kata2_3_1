@@ -1,6 +1,6 @@
 package com.vladislav.services;
 
-import com.vladislav.DAO.UserDAO;
+import com.vladislav.dao.UserDAO;
 import com.vladislav.entity.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

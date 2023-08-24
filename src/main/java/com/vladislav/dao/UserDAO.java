@@ -1,7 +1,6 @@
-package com.vladislav.DAO;
+package com.vladislav.dao;
 
 import com.vladislav.entity.User;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

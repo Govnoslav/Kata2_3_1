@@ -3,7 +3,6 @@ package com.vladislav.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
@@ -22,11 +21,11 @@ import java.util.Properties;
 @EnableTransactionManagement
 @PropertySource("classpath:hibernate.properties")
 @ComponentScan("com.vladislav")
-public class GovnoConfig {
+public class SpringDataJPAConfig {
     private final Environment env;
 
     @Autowired
-    public GovnoConfig(Environment env) {
+    public SpringDataJPAConfig(Environment env) {
         this.env = env;
     }
 
